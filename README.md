@@ -8,6 +8,7 @@ The new project will appear under Project Explorer. Right-click the project and 
 Click on the `C/C++ Build` properties page (top-level):
 
 Uncheck `Use default build command` and enter this for the custom build command: 
+
 `python ${IDF_PATH}/tools/windows/eclipse_make.py`
 
 ## Click on the “Environment” properties page under `C/C++ Build`:
